@@ -2,7 +2,7 @@ from tkinter import EXCEPTION
 import mariadb
 conn = mariadb.connect(
   user="root",
-  password="Kprv@0600",
+  password="password",
   host="localhost",
   port=3306,
   database="python_employee"
